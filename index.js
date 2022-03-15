@@ -52,7 +52,7 @@ app.use(express.json());
 
 app.get("/api",(req,res)=>{
     console.log("hello from "+os.hostname());
-    res.send("<h2>Hi There<h2>")
+    res.send("<h2>Hi There!!!!!!!<h2>")
 })
 
 app.use("/api/v1/posts",postRouter);
