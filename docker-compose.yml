@@ -2,8 +2,7 @@ version: "3"
 services:
   node-app:
     build: .
-    #ports:
-    #  - "3000:3000"
+    image: hahmadipoor/testapp3_node-app
     environment:
       - PORT=3000
     depends_on:
